@@ -1,0 +1,51 @@
+@media (min-width: 1200px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .welcome-left__title {
+    font-size: 28px;
+  }
+  .welcome-left__desc {
+    font-size: 16px;
+  }
+  .welcome-left__btn {
+    font-size: 16px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .welcome-content {
+    height: 180px;
+  }
+  .welcome-left {
+    padding: 40px 0 0 10px;
+  }
+  .welcome-left__title {
+    font-size: 24px;
+  }
+  .welcome-left__desc {
+    font-size: 14px;
+  }
+  .welcome-left__btn {
+    font-size: 14px;
+  }
+}
+@media (max-width: 575px) {
+  .swiper-pagination-bullet-active {
+    width: 19px;
+    height: 3px;
+  }
+  .swiper-pagination-bullet {
+    width: 3px;
+    height: 3px;
+  }
+  .welcome-left__title {
+    font-size: 10px;
+  }
+  .welcome-left__desc {
+    font-size: 8px;
+  }
+  .welcome-left__btn {
+    font-size: 8px;
+  }
+}
