@@ -12,3 +12,16 @@ const swiper = new Swiper(".swiper", {
     clickable: true,
   },
 });
+const categoriesSwiper = new Swiper(".swiper-categories", {
+  slidesPerView: "auto",
+  spaceBetween: 90,
+  parallax: true,
+  speed: 1000,
+  keyboard: {
+    enabled: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
