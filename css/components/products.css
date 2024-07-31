@@ -1,0 +1,107 @@
+.products-title {
+  font: var(--text-500-27-70-ff);
+  color: var(--c-color-black);
+  margin-bottom: 40px;
+}
+.products-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.products-item {
+  max-width: 206px;
+  width: 100%;
+}
+.products-item__img {
+  display: block;
+  background: var(--c-background-products);
+  border-radius: 5px;
+  max-height: 125px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 100%;
+}
+.products-item__title {
+  font: var(--text-500-16-150-ff);
+  color: var(--c-color-black);
+  margin-bottom: 5px;
+  transition: var(--transition);
+}
+.products-item__title:hover {
+  opacity: 0.7;
+  color: var(--00ac4e);
+}
+.products-desc {
+  font: var(--text-400-12-150-ff);
+  color: var(--c-color-black);
+  margin-bottom: 13px;
+}
+.products-item__rating {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 9px;
+}
+.products-item__price {
+  display: flex;
+  column-gap: 18px;
+  margin-bottom: 13px;
+}
+.products-item__price p {
+  font: var(--text-500-18-125-ff);
+  color: var(--c-color-black);
+}
+.products-item__price span {
+  font: var(--text-400-12-179-ff);
+  color: var(--c-color-txt-2);
+}
+.products-item__btn {
+  font: var(--text-500-18-75-ff);
+  padding: 10px 28px;
+}
+
+/* pagination */
+.pagination {
+  padding: 45px 0 60px;
+  justify-content: center;
+  column-gap: 5px;
+}
+.page-item.active .page-link {
+  z-index: 3;
+  color: var(--ffffff);
+  background-color: var(--00ac4e);
+  border-color: var(--00ac4e);
+}
+.page-link__prev {
+  transform: scaleX(-1);
+}
+.page-link__prev:hover {
+  background-color: none;
+}
+.page-link {
+  font: var(--text-500-20-125-ff);
+  color: var(--c-color-black);
+  border: inherit;
+  padding: 0;
+  background-color: inherit;
+  border-radius: 5px;
+  width: 41px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-link:hover {
+  border: inherit !important;
+  color: var(--ffffff);
+  background-color: var(--00ac4e);
+}
+.page-link:focus {
+  color: var(--ffffff);
+  background-color: var(--00ac4e);
+  box-shadow: inherit;
+}
+.page-item:not(:first-child) .page-link {
+  margin-left: 0;
+}

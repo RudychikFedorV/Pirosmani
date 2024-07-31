@@ -29,15 +29,6 @@
   margin-bottom: 31px;
 }
 .welcome-left__btn {
-  display: inline-block;
-  font: var(--text-500-25-100-ff);
-  color: var(--ffffff);
   padding: 11px 32px;
-  border-radius: 5px;
-  background-color: var(--00ac4e);
-  transition: var(--transition);
-}
-.welcome-left__btn:hover {
-  opacity: 0.7;
-  color: var(--c-color-black);
+  font: var(--text-500-25-100-ff);
 }

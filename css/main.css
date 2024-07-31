@@ -2,6 +2,7 @@
 @import url(components/header.css);
 @import url(components/welcome.css);
 @import url(components/categories.css);
+@import url(components/products.css);
 * {
   box-sizing: border-box;
   padding: 0;
@@ -27,4 +28,15 @@ ul li {
 .container {
   max-width: 1240px;
   margin-inline: auto;
+}
+.pirosmani-btn {
+  display: inline-block;
+  color: var(--ffffff);
+  border-radius: 5px;
+  background-color: var(--00ac4e);
+  transition: var(--transition);
+}
+.pirosmani-btn:hover {
+  opacity: 0.7;
+  color: var(--c-color-black);
 }
