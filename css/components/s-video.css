@@ -1,0 +1,15 @@
+.s-video-content {
+  position: relative;
+  background-image: url(../../img/s-video/video-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.s-video-content__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.s-video-content__play {
+  cursor: pointer;
+}

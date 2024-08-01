@@ -105,3 +105,6 @@
 .page-item:not(:first-child) .page-link {
   margin-left: 0;
 }
+dl, ol, ul {
+  margin-bottom: 0;
+}

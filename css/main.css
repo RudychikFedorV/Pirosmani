@@ -3,6 +3,7 @@
 @import url(components/welcome.css);
 @import url(components/categories.css);
 @import url(components/products.css);
+@import url(components/s-video.css);
 * {
   box-sizing: border-box;
   padding: 0;
@@ -39,4 +40,7 @@ ul li {
 .pirosmani-btn:hover {
   opacity: 0.7;
   color: var(--c-color-black);
+}
+.none {
+  display: none !important;
 }

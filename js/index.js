@@ -25,8 +25,8 @@ const categoriesSwiper = new Swiper(".swiper-categories", {
     enabled: true,
   },
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });
 // swiper categories section END
@@ -35,34 +35,38 @@ const categoriesSwiper = new Swiper(".swiper-categories", {
 function loadJSON(callback) {
   const xhr = new XMLHttpRequest();
   xhr.overrideMimeType("application/json");
-  xhr.open('GET', './json/products.json', true);
+  xhr.open("GET", "./json/products.json", true);
   xhr.onreadystatechange = function () {
-      if (xhr.readyState === 4 && xhr.status === 200) {
-          try {
-              const data = JSON.parse(xhr.responseText);
-              callback(data);
-          } catch (error) {
-              console.error('Error parsing JSON:', error);
-          }
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      try {
+        const data = JSON.parse(xhr.responseText);
+        callback(data);
+      } catch (error) {
+        console.error("Error parsing JSON:", error);
       }
+    }
   };
   xhr.send(null);
 }
 
 function updateHTML(data) {
-  console.log('Received data:', data); 
+  console.log("Received data:", data);
   if (!Array.isArray(data)) {
-      console.error('Expected an array but got:', data);
-      return;
+    console.error("Expected an array but got:", data);
+    return;
   }
-  const container = document.getElementById('products-container');
-  data.forEach(product => {
-      const productItem = document.createElement('div');
-      productItem.classList.add('products-item');
+  const container = document.getElementById("products-container");
+  data.forEach((product) => {
+    const productItem = document.createElement("div");
+    productItem.classList.add("products-item");
 
-      productItem.innerHTML = `
-          <img src="${product.imgSrc}" alt="${product.title}" class="products-item__img">
-          <a href="${product.linkTitle}" class="products-item__title"><strong>${product.title}</strong></a>
+    productItem.innerHTML = `
+          <img src="${product.imgSrc}" alt="${
+      product.title
+    }" class="products-item__img">
+          <a href="${product.linkTitle}" class="products-item__title"><strong>${
+      product.title
+    }</strong></a>
           <p class="products-desc">${product.desc}</p>
           <div class="products-item__rating">
               ${getRatingStars(product.rating)}
@@ -74,21 +78,31 @@ function updateHTML(data) {
           <a href="#!" class="products-item__btn pirosmani-btn">В корзину</a>
       `;
 
-      container.appendChild(productItem);
+    container.appendChild(productItem);
   });
 }
 
 function getRatingStars(rating) {
-  let stars = '';
+  let stars = "";
   for (let i = 0; i < 5; i++) {
-      if (i < rating) {
-          stars += '<img src="./img/products/star-green.svg" alt="star green">';
-      } else {
-          stars += '<img src="./img/products/star-grey.svg" alt="star grey">';
-      }
+    if (i < rating) {
+      stars += '<img src="./img/products/star-green.svg" alt="star green">';
+    } else {
+      stars += '<img src="./img/products/star-grey.svg" alt="star grey">';
+    }
   }
   return stars;
 }
 
 loadJSON(updateHTML);
 // json products section END
+
+// s-video section START
+$(".play-yt").click(function () {
+  $(this).hide();
+  $(".yt-video").attr(
+    "src",
+    "https://www.youtube.com/embed/oUs5d4kbXco?si=l-Hcf611hyoxgFPF&amp;start=1"
+  );
+});
+// s-video section END
