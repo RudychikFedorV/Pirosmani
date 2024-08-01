@@ -4,6 +4,7 @@
 @import url(components/categories.css);
 @import url(components/products.css);
 @import url(components/s-video.css);
+@import url(components/delivery.css);
 * {
   box-sizing: border-box;
   padding: 0;

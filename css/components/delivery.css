@@ -1,0 +1,22 @@
+.delivery {
+  padding: 60px 0;
+}
+.delivery-content {
+  margin-inline: auto;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  column-gap: 20px;
+  box-shadow: var(--c-box-shadow-welcome);
+  background: var(--c-background-delivery);
+  border-radius: 18px;
+  max-width: 994px;
+}
+.delivery-left {
+  padding: 30px 0 59px 40px;
+}
+.delivery-left__title {
+  font:var(--text-400-31-100-ff);
+  color: var(--c-color-txt);
+  margin-bottom: 34px;
+}
