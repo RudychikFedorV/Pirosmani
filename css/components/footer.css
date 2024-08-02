@@ -1,0 +1,115 @@
+.footer {
+  background-color: var(--00ac4e);
+  padding: 35px 0;
+}
+.footer-content {
+  column-gap: 110px;
+}
+
+/* footer-left */
+.footer-left {
+  max-width: 460px;
+}
+.footer-left__phones {
+  column-gap: 60px;
+  margin-bottom: 15px;
+}
+.footer-left__phones a {
+  column-gap: 60px;
+  font: var(--text-400-12-262-ff);
+  color: var(--ffffff);
+  white-space: nowrap;
+}
+.footer-left__phones span {
+  display: block;
+  font: var(--text-500-18-208-ff);
+  color: var(--ffffff);
+  white-space: nowrap;
+  transition: var(--transition);
+}
+.footer-left__phones span:hover {
+  color: var(--c-color-black);
+}
+.footer-left__info {
+  margin-bottom: 10px;
+}
+.footer-left__info-desc {
+  font: var(--text-400-15-210-ff);
+  color: var(--ffffff);
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+.footer-left__info-email {
+  font: var(--text-400-18-175-ff);
+  color: var(--ffffff);
+  white-space: nowrap;
+  transition: var(--transition);
+}
+.footer-left__info-email:hover {
+  color: var(--c-color-black);
+}
+.footer-left__info-support {
+  font: var(--text-500-18-100-ff);
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--ffffff);
+  transition: var(--transition);
+}
+.footer-left__info-support:hover {
+  color: var(--c-color-black);
+}
+
+/* footer-right */
+.footer-right {
+  margin-left: auto;
+  column-gap: 115px;
+}
+.footer-socials {
+  row-gap: 25px;
+}
+.footer-socials__social {
+  display: block;
+  font: var(--text-500-15-210-ff);
+  letter-spacing: 0.2em;
+  font-variant: all-small-caps;
+  color: var(--ffffff);
+  white-space: nowrap;
+  transition: var(--transition);
+}
+.footer-socials__social:hover {
+  color: var(--c-color-black);
+}
+
+.footer-user img {
+  width: 15px;
+  height: 20px;
+  object-fit: cover;
+  margin-right: 7px;
+  flex-shrink: 0;
+}
+.footer-user__entrance,
+.footer-user__registration,
+.footer-user span {
+  display: block;
+  font: var(--text-500-15-210-ff);
+  color: var(--ffffff);
+  transition: var(--transition);
+}
+.footer-user__entrance:hover,
+.footer-user__registration:hover {
+  color: var(--c-color-black);
+}
+.footer-user span {
+  padding: 0 5px;
+}
+.footer-copyright {
+  column-gap: 34px;
+}
+.footer-copyright__txt {
+  font: var(--text-400-12-262-ff);
+  color: var(--ffffff);
+  transition: var(--transition);
+}
+.footer-copyright__txt:hover {
+  color: var(--c-color-black);
+}

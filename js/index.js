@@ -106,3 +106,7 @@ $(".play-yt").click(function () {
   );
 });
 // s-video section END
+
+// copyright block START
+document.getElementById("copyright").textContent = new Date().getFullYear();
+// copyright block END
