@@ -1,0 +1,33 @@
+.delivery-title {
+  font: var(--text-500-28-100-ff);
+  color: var(--c-color-black);
+  margin-bottom: 25px;
+}
+.delivery-desc {
+  font: var(--text-400-22-100-ff);
+  color: var(--c-color-txt-2);
+  margin-bottom: 45px;
+}
+.delivery-block {
+  column-gap: 60px;
+}
+.delivery-block__btn {
+  padding: 16px 38px;
+  font: var(--text-500-20-107-ff);
+}
+.delivery-block__link {
+  font: var(--text-400-22-129-ff);
+  color: var(--00ac4e);
+  transition: var(--transition);
+}
+.delivery-block__link:hover {
+  color: var(--c-color-black);
+}
+.delivery-block__link span {
+  display: block;
+  margin-left: 10px;
+  transition: var(--transition);
+}
+.delivery-block__link:hover img {
+  filter: brightness(0);
+}

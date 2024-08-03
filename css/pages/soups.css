@@ -1,0 +1,15 @@
+.categories .swiper-wrapper {
+  align-items: center;
+}
+
+.categories-title__active {
+  padding: 8px 16px;
+  background: var(--00ac4e);
+  border-radius: 5px;
+  color: var(--ffffff);
+  transition: var(--transition);
+}
+.categories-title__active:hover {
+  color: var(--c-color-black);
+  opacity: 0.7;
+}

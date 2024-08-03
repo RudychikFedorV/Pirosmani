@@ -8,15 +8,15 @@
 }
 .categories-title {
   display: block;
-  font:var(--text-400-23-100-ff);
+  font: var(--text-400-23-100-ff);
   color: var(--c-color-txt-3);
   white-space: nowrap;
   text-transform: uppercase;
   width: auto !important;
-  transition: var( --transition);
+  transition: var(--transition);
 }
-.categories-title:hover{
-    color: var(--00ac4e);
+.categories-title:hover {
+  color: var(--00ac4e);
 }
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
@@ -48,6 +48,7 @@
 .swiper-button-next,
 .swiper-button-prev {
   width: inherit;
-  padding: 0 5px;
+  padding: 0 6px;
   background-color: var(--ffffff);
 }
+

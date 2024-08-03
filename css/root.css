@@ -3,9 +3,11 @@
   --ff: "Poppins", sans-serif;
   --transition: 0.3s all ease-in-out;
 
+  --text-500-28-100-ff: 500 28px / 100% var(--ff);
   --text-500-27-70-ff: 500 27px / 70% var(--ff);
   --text-500-25-100-ff: 500 25px / 100% var(--ff);
   --text-500-20-125-ff: 500 20px / 125% var(--ff);
+  --text-500-20-107-ff: 500 20px / 107% var(--ff);
   --text-500-18-208-ff: 500 18px / 208% var(--ff);
   --text-500-18-125-ff: 500 18px / 125% var(--ff);
   --text-500-18-117-ff: 500 18px / 117% var(--ff);
@@ -15,6 +17,8 @@
   --text-500-15-210-ff: 500 15px / 210% var(--ff);
   --text-400-31-100-ff: 400 31px / 100% var(--ff);
   --text-400-23-100-ff: 400 23px / 100% var(--ff);
+  --text-400-22-129-ff: 400 22px / 129% var(--ff);
+  --text-400-22-100-ff: 400 22px / 100% var(--ff);
   --text-400-19-100-ff: 400 19px / 100% var(--ff);
   --text-400-18-175-ff: 400 18px / 175% var(--ff);
   --text-400-15-210-ff: 400 15px / 210% var(--ff);

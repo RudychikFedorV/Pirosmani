@@ -1,1 +1,1 @@
-[Pirosmani (Bootstrap, html, Css, swiper, @media, var, .json)](https://rudychikfedorv.github.io/Pirosmani/)
+[Pirosmani (Bootstrap, html, Css, js, swiper, @media, var, .json)](https://rudychikfedorv.github.io/Pirosmani/)
