@@ -19,6 +19,7 @@
   --text-400-23-100-ff: 400 23px / 100% var(--ff);
   --text-400-22-129-ff: 400 22px / 129% var(--ff);
   --text-400-22-100-ff: 400 22px / 100% var(--ff);
+  --text-400-20-105-ff: 400 20px / 105% var(--ff);
   --text-400-19-100-ff: 400 19px / 100% var(--ff);
   --text-400-18-175-ff: 400 18px / 175% var(--ff);
   --text-400-15-210-ff: 400 15px / 210% var(--ff);
@@ -34,6 +35,8 @@
   --c-color-txt: #333;
   --c-color-txt-2: #828282;
   --c-color-txt-3: #4f4f4f;
+  --c-color-txt-4: #bdbdbd;
+  --c-color-txt-5: #f9f9f9;
   --c-box-shadow-header: 0 0 15px 0 rgba(0, 0, 0, 0.12);
   --c-box-shadow-welcome: 0 0 18px 0 rgba(0, 0, 0, 0.03);
   --c-background-welcome: linear-gradient(180deg, #f1f1fb 0%, #ebebf5 100%);

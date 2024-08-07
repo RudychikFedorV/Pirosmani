@@ -1,0 +1,23 @@
+.pirosmani-btn {
+  max-width: 183px;
+}
+.support-form {
+  margin-bottom: 45px;
+}
+.support-form::placeholder {
+  font:var(--text-400-20-105-ff);
+  color: var(--c-color-txt-4);
+}
+input[type="subject"],
+textarea {
+  max-width: 672px;
+  width: 100%;
+  min-height: 174px;
+  padding: 19px 20px;
+  background-color: var(--c-color-txt-5);
+  border-radius: 5px;
+  resize: vertical;
+
+  font:var(--text-400-20-105-ff);
+  color: var(--c-color-black);
+}
